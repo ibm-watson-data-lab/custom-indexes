@@ -1,0 +1,27 @@
+{
+  "name": "custom-indexes",
+  "version": "1.0.0",
+  "description": "Creates an in-memory index in Redis built with  data from Cloudant",
+  "main": "stream.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibm-watson-data-lab/custom-indexes.git"
+  },
+  "keywords": [
+    "cloudant",
+    "redis"
+  ],
+  "author": "Glynn Bird <glynn.bird@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ibm-watson-data-lab/leaderboard/issues"
+  },
+  "homepage": "https://github.com/ibm-watson-data-lab/leaderboard#readme",
+  "dependencies": {
+    "cloudant": "^1.8.0",
+    "redis": "^2.7.1"
+  }
+}
